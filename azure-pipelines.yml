@@ -5,6 +5,7 @@
 
 trigger:
 - master
+- dheeraj_testing
 
 pool:
   vmImage: $(operatingSystem)
