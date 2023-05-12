@@ -34,7 +34,7 @@ stages:
   jobs:
   - job: BuildJob
     steps:
-    - bash: echo "Start Dev Deploy"
+    - bash: echo "Start QA Deploy"
   - deployment: QADeployJob
     environment: QA
     strategy:
